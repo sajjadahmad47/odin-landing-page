@@ -1,0 +1,128 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+body {
+    margin: 0;
+    font-family: Rubuto, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background: #1f2937;
+    font-family: Roboto;
+    align-items: center;
+
+}
+.header a {
+    text-decoration: none;
+    color: #E5E7Eb;
+    font-size: 18px;
+    
+} 
+.header-links {
+    display: flex;
+    gap: 24px;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.hero {
+    display: flex;
+    gap: 48px;
+    background: #1f2937;
+    align-items: center;
+    padding: 48px;
+    justify-content: center;
+}
+.hero-image {
+    width: 400px;
+    height: 200px;
+    background-color: #6b7280;
+}
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+.hero-text button {
+    background: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+.information h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+}
+.info-container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+.info-box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid;
+    border-radius: 12px;
+    color: skyblue;
+    
+}
+.info-item p {
+    text-align: center;
+    font-size: 16px;
+    width: 150px;
+}
+.quote {
+    background: #E5E7Eb;
+    padding: 48px;
+}
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote p:last-child {
+    font-size: 16px;
+    font-weight: 700;
+}
+.cta {
+    background: #3882f6;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 64px;
+    border-radius: 8px;
+}
+.cta h2 {
+    color: white;
+}
+.cta p {
+    color: wheat;
+}
+.cta button {
+    background: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
+footer {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 24px;
+}
+.cta-wrapper {
+    padding: 32px 64px;
+}
